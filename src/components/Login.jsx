@@ -23,8 +23,10 @@ const Login = function(){
         >
           <GoogleOutlined /> Sign in Google
         </div>
+        
         <br/><br/>
         <div className="login-button google" onClick={handleOnClick}>useContext example</div>
+        
         <br/><br/>
         <div className="login-button google" onClick={handleOnClick1}>Home</div>
       </div>
