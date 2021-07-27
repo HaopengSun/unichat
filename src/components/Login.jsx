@@ -5,7 +5,6 @@ import { GoogleOutlined } from '@ant-design/icons';
 
 import firebase from "firebase/app"
 import { auth } from '../firebase'
-
 import {useHistory} from 'react-router-dom';
 
 
