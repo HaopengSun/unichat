@@ -11,7 +11,6 @@ import {useHistory} from 'react-router-dom';
 const Login = function(){
   const history = useHistory();
   const handleOnClick = useCallback(() => history.push('/context'), [history]);
-  const handleOnClick1 = useCallback(() => history.push('/'), [history]);
 
   return (
     <div id="login-page">
@@ -26,9 +25,6 @@ const Login = function(){
         
         <br/><br/>
         <div className="login-button google" onClick={handleOnClick}>useContext example</div>
-        
-        <br/><br/>
-        <div className="login-button google" onClick={handleOnClick1}>Home</div>
       </div>
     </div>
   )
