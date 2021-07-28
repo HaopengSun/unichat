@@ -10,6 +10,12 @@ const Chats = function(){
         <div className="logo-tab">Unichat</div>
         <div className="logout-tab">Logout</div>
       </div>
+      <ChatEngine 
+        userName='haopeng'
+        userSecret='123456'
+        projectID="a5da4989-8b4e-402f-bfe3-a5c0ef254cef"
+        height="calc(100vh - 66px)"
+      />
     </div>
   )
 }
