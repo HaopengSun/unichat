@@ -15,9 +15,9 @@ function App() {
       <Router>
         <AuthProvider>
           <Switch>
-            <Route path="/chats" component={Chats} />
             {/* When true, will only match if the path matches the location.pathname exactly. */}
             <Route exact path="/" component={Login} />
+            <Route path="/chats" component={Chats} />
             <Route path="/context" component={Context} />
           </Switch>
         </AuthProvider>
