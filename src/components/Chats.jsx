@@ -68,7 +68,6 @@ function Chats() {
     }
   }, [user, history])
   
-
   if (!user || loading) return <div />
 
   return (

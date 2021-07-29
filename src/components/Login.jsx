@@ -7,7 +7,6 @@ import firebase from "firebase/app"
 import { auth } from '../firebase'
 import {useHistory} from 'react-router-dom';
 
-
 const Login = function(){
   const history = useHistory();
   const handleOnClick = useCallback(() => history.push('/context'), [history]);
