@@ -7,6 +7,7 @@ import { AuthProvider } from "../contexts/AuthContext"
 import Chats from "./Chats"
 import Login from "./Login"
 import Context from "./Context"
+import GoogleAuth from "./GoogleAuth"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" component={Login} />
             <Route path="/chats" component={Chats} />
             <Route path="/context" component={Context} />
+            <Route path="/googleAuth" component={GoogleAuth} />
           </Switch>
         </AuthProvider>
       </Router>

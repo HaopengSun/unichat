@@ -10,6 +10,7 @@ import {useHistory} from 'react-router-dom';
 const Login = function(){
   const history = useHistory();
   const handleOnClick = useCallback(() => history.push('/context'), [history]);
+  const handleOnClickGoogle = useCallback(() => history.push('/googleAuth'), [history]);
 
   return (
     <div id="login-page">
@@ -24,6 +25,9 @@ const Login = function(){
         
         <br/><br/>
         <div className="login-button google" onClick={handleOnClick}>useContext example</div>
+
+        <br/><br/>
+        <div className="login-button google" onClick={handleOnClickGoogle}>google auth example</div>
       </div>
     </div>
   )
